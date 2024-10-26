@@ -9,7 +9,15 @@ const [counter,setCounter]=useState(10)
  * method to add counter
  */
 const add=()=>{
-   setCounter(counter+1);
+  setCounter((pre)=>pre+1);//11
+  setCounter((pre)=>pre+1);//12
+  setCounter((pre)=>pre+1);//13
+  setCounter((pre)=>pre+1);//14
+  
+//    setCounter(counter+1);
+//    setCounter(counter+1);
+//    setCounter(counter+1);
+
 }
 
 /**
